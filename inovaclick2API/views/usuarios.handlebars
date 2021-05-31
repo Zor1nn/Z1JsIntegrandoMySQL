@@ -1,0 +1,11 @@
+<h1>Lista de Usuários:</h1>
+
+{{#each usuarios}}
+    <h2>Nome:{{nome}}</h2>
+    <p>Idade:{{idade}}</p>
+    <small>Criado:{{createdAt}}</small>
+    <hr>
+
+{{else}}
+    <p>Nenhum usuario registrado!</p>
+{{/each}}
